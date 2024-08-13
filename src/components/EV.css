@@ -1,0 +1,66 @@
+/* EV.css */
+
+/* Main section styling */
+.main-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #f0f0f0; /* Light grey background */
+  }
+  
+  /* Grandparent div styling */
+  .g-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  }
+  
+  /* Parent div styling */
+  .p-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: #2196F3; /* Blue background */
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  }
+  
+  /* Button styling */
+  .c-div {
+    width: 100px;
+    height: 50px;
+    background-color: #f44336; /* Red background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  }
+  
+  /* Hover effects */
+  .g-div:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  .p-div:hover {
+    background-color: #1e88e5; /* Darker blue on hover */
+  }
+  
+  .c-div:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+  }
+  
