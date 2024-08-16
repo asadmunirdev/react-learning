@@ -1,4 +1,4 @@
-import NetflixSeries from "./components/NetflixSeries";
+import NetflixSeries from "./projects/NetflixCard/NetflixSeries";
 import { LiftingState } from "./components/LiftStateUp";
 import { State } from "./components/hooks/State";
 import { DericedState } from "./components/hooks/DericedState";
@@ -9,13 +9,13 @@ import { EventPorps } from "./components/EventsProp";
 export const App = () => {
   return (
     <>
-      <NetflixSeries />
+      {/* <NetflixSeries /> */}
       <ToggleSwitch />
-      <LiftingState />
-      <State />
-      <DericedState />
-      <EventPropagation/>
-      <EventPorps/>
+      {/* <LiftingState /> */}
+      {/* <State /> */}
+      {/* <DericedState /> */}
+      {/* <EventPropagation/> */}
+      {/* <EventPorps/> */}
     </>
   );
 };

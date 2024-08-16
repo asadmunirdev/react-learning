@@ -31,20 +31,5 @@ body {
   left: 5px;
   transition: transform 0.3s linear, background-color 0.3s linear;
   border: 0.2rem solid #ccc;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
-
-.on {
-  background-color: #4caf50;
-  transform: translateX(50px);
-}
-
-.off {
-  background-color: #f44336;
-  transform: translateX(0);
-}
-
-.switch-state {
-  margin: 0 10px;
-  text-transform: uppercase;
+  box-shadow: rgba(17, 17, 35, 0.2) 0px 7px 29px 0px;
 }
