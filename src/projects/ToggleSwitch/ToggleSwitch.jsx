@@ -1,5 +1,5 @@
 import { useState } from "react";
-// import "./ToggleSwitch.css";
+import "./ToggleSwitch.css";
 
 export const ToggleSwitch = () => {
   const [isOn, setIsOn] = useState(false);
