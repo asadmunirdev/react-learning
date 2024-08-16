@@ -1,17 +1,20 @@
 import NetflixSeries from "./components/NetflixSeries";
 import styles from "./components/Netflix.module.css";
-import { DericedState } from "./components/hooks/DericedState";
+import { LiftingState } from "./components/LiftStateUp";
 import { State } from "./components/hooks/State";
+import { DericedState } from "./components/hooks/DericedState";
+
 
 export const App = () => {
   return (
     <>
-      <State />
-      <DericedState />
-      {/* <section className="container">
+      <LiftingState />
+      <State/>
+      <DericedState/>
+      <section className="container">
         <h1 className={styles["card-heading"]}>List of Netflix Cards</h1>
         <NetflixSeries />
-      </section> */}
+      </section>
     </>
   );
 };
